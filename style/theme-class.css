@@ -1,0 +1,114 @@
+/* Темы по классу */
+.right-container__bottom-themes {
+	margin-top: 30px;
+	background: #ffffff;
+	width: 1000px;
+	border-radius: 30px;
+	padding: 30px;
+	display: flex;
+	box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+
+	animation-name: rotate;
+	animation-duration: 1s;
+
+
+}
+
+
+
+
+.circle-progress {
+	background: #C4C4C4;
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+
+
+}
+
+.circle-progress-center {
+	background: #ffffff;
+	height: 135px;
+	width: 135px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-info {
+	margin-left: 30px;
+	width: 60%;
+}
+
+.center-info p {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.right-button {
+	margin-left: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.right-button button {
+	background: #FFB800;
+	padding: 15px;
+	border-radius: 30px;
+	border: 0;
+	color: #ffffff;
+	cursor: pointer;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+	user-select: none;
+}
+
+.right-button button:hover {
+	background: #B8B8B8;
+	color: #000000;
+}
+
+.right-button button:active {
+	background: #ffffff;
+}
+
+.lessons-themes {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.lessons-themes h4 {
+	user-select: none;
+}
+
+.lessons-themes p {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.lessons-themes a {
+	text-decoration: none;
+	color: #4AA8FF;
+}
+
+.lessons-themes img {
+	height: 25px;
+	width: 25px;
+}
+
+summary {
+	user-select: none;
+	cursor: pointer;
+	color: #2b435a;
+}

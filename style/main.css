@@ -1,0 +1,59 @@
+@import 'header.css';
+@import 'left-bar.css';
+@import 'right-container.css';
+@import 'theme-class.css';
+@import 'ui.totop.css';
+@import 'scroll-line.css';
+@import 'window-leson.css';
+@import 'right-menu-list.css';
+@import 'login.css';
+@import 'test.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+@import 'MEX.css';
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Mulish', sans-serif;
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+
+
+}
+
+body {
+	background: #EFEFEF;
+	height: 100%;
+	position: relative;
+}
+
+.container {
+	display: flex;
+	position: relative;
+}
+
+
+
+pre {
+	font-size: 18px;
+	border: 2px solid grey;
+
+	border-left: 12px solid rgb(31, 138, 187);
+	border-radius: 5px;
+	padding: 14px;
+
+	/* Fixed line height */
+	line-height: 24px;
+
+	/* Use linear-gradient for background image */
+	background-image: linear-gradient(180deg, #eee 50%, #fff 50%);
+
+	/* Size background so that the height is 2x line-height */
+	background-size: 100% 48px;
+
+	/* Offset the background along the y-axis by top padding */
+	background-position: 0 14px;
+}

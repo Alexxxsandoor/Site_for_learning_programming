@@ -1,0 +1,34 @@
+/* полоса прокрутки (скроллбар) */
+::-webkit-scrollbar {
+	width: 8px;
+	/* ширина для вертикального скролла */
+	height: 8px;
+	/* высота для горизонтального скролла */
+	background: rgb(2, 0, 36);
+
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(0, 0, 0, 1) 100%);
+	border-radius: 30px;
+
+}
+
+/* Стрелки */
+::-webkit-scrollbar-button:vertical:start:decrement {
+	display: none;
+}
+
+::-webkit-scrollbar-button:vertical:end:increment {
+	display: none;
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement {
+	display: none;
+}
+
+::-webkit-scrollbar-button:horizontal:end:increment {
+	display: none;
+}
